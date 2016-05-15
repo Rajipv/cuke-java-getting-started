@@ -5,8 +5,8 @@ require 'watir-webdriver'
 #include AdoptionHelper
 
 Given /^I am on the puppy adoption site$/ do
-   # @browser.goto "http://puppies.herokuapp.com"
-    @browser.goto "https://whispering-falls-10232.herokuapp.com/index.html"
+    #@browser.goto "https://whispering-falls-10232.herokuapp.com/index.html"
+     @browser.goto "http://localhost:5000/index.html"
 end
 
 When /^I click the first View Details button$/ do

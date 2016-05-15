@@ -4,7 +4,8 @@ require 'watir-webdriver'
 # Validate Cart 
 
 Given(/^I have picked one puppy$/) do
-    @browser.goto "http://puppies.herokuapp.com"
+    #@browser.goto "https://whispering-falls-10232.herokuapp.com/index.html"
+    @browser.goto "http://localhost:5000/index.html"
     @browser.button(:value =>'View Details', :index =>0).click
 end
 
