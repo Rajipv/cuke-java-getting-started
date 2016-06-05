@@ -1,7 +1,7 @@
 Feature: Copyright 
 
 	As a product owner 
- 	I want the site to have a copyright
+ 	I want the site to have an essential copyright
 	So that the site is protected
 	
 Scenario Outline: Copyright
